@@ -8,11 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+         <link rel="stylesheet" href="scripts/src/font-awesome/css/font-awesome.css">
+         <link rel="stylesheet" href="scripts/src/animate.css/animate.css">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
         <header id="header">
-            <nav id="navigation" class="navbar">
+            <nav id="navigation" class="navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                         <a href="" class="navbar-brand">Golf Couses</a>
@@ -21,21 +23,172 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="">Home</a></li>
                             <li><a href="">See more</a></li>
-                            <li><a href="">Prices</a></li>
                             <li><a href="">Sign in</a></li>
+                            <li><a href="">Prices</a></li>
                             <li><a href="">Contact</a></li>
                         </ul>
                     </div>
                 </div>
-                
             </nav>
             <div class="container">
                 <div class="col-xs-12 welcome">
                     <h1 class="text-center">Welcome to Golf Course</h1>   
-                </div>
-                
+                    <div class="col-xs-12 actions">
+                        <a href="" class="btn btn-large btn-primary white btn-custom col-xs-offset-5">See more</a>
+                        <a href="" class="btn btn-large btn-primary white btn-custom">Price</a>
+                    </div>
+                </div>                
             </div>
         </header>
+        <section id="click-action">
+            <div class="container wow fadeInRightBig">
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                        <h2>Want to play best golf? Please fill with your email</h2>
+                        <form action="" class="col-xs-12">
+                            <div class="form-group col-xs-11">
+                                <input type="email" placeholder="Enter your email here" class="form-control input-custom">
+                            </div>
+                            <div class="col-xs-1">
+                                <button type="submit" class="btn btn-large btn-primary white btn-custom">Send</button>
+                            </div>
+                        </form>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="wow fadeInLeftBig">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">See more</h2>
+                    <div class="col-md-6 col-xs-12">
+                        <img src="/images/about-bg.jpg" alt="See more" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eius veniam culpa fugiat, distinctio est rem praesentium! Vel vero beatae aperiam, quam doloribus reprehenderit, fuga repellat iusto minima laborum reiciendis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eius veniam culpa fugiat, distinctio est rem praesentium! Vel vero beatae aperiam, quam doloribus reprehenderit, fuga repellat iusto minima laborum reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="signin">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Start to learn golf right now!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit modi praesentium veritatis! Blanditiis dolorum cupiditate culpa numquam ipsa quas hic excepturi atque. Iusto excepturi voluptatum deleniti delectus, sequi voluptas molestiae?</p>
+                    <a href="" class="btn btn-large btn-primary white btn-custom action">See more</a>
+                </div>
+            </div>
+        </section>
+        <section id="prices" class="wow fadeInLeftBig">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Price and Conditions</h2>
+                    <div class="col-xs-12 col-sm-4 price-container">
+                        <div class="price-header silver">
+                            <h2>Silver</h2>
+                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>   
+                        </div>
+                        <div class="price-content">
+                            <h4 class="col-xs-12 text-left line-bottom">Price</h4>
+                            <strong>$2000,00</strong>
+                            <h4 class="col-xs-12 text-left line-bottom">Features</h4>
+                            <ul class="feature-list">
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                        </div>
+                        <div class="price-footer">
+                            <a href="" class="btn btn-large btn-prices silver">Get this pack</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-4 price-container">
+                        <div class="price-header gold">
+                            <h2>Gold</h2>
+                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>   
+                        </div>
+                        <div class="price-content">
+                            <h4 class="col-xs-12 text-left line-bottom">Price</h4>
+                            <strong>$4500,00</strong>
+                            <h4 class="col-xs-12 text-left line-bottom">Features</h4>
+                            <ul class="feature-list">
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                        </div>
+                        <div class="price-footer">
+                            <a href="" class="btn btn-large btn-prices gold">Get this pack</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-4 price-container">
+                        <div class="price-header royal">
+                            <h2>Royal</h2>
+                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>   
+                        </div>
+                        <div class="price-content">
+                            <h4 class="col-xs-12 text-left line-bottom">Price</h4>
+                            <strong>$6000,00</strong>
+                            <h4 class="col-xs-12 text-left line-bottom">Features</h4>
+                            <ul class="feature-list">
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                        </div>
+                        <div class="price-footer">
+                            <a href="" class="btn btn-large btn-prices royal">Get this pack</a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="wow fadeInRightBig">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Contact Us</h2>
+                     <form action="" class="col-xs-12">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter your name here" class="form-control input-custom">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email here" class="form-control input-custom">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter your subject here" class="form-control input-custom">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <textarea name="" id="" cols="30" rows="8" class="form-control input-custom" placeholder="Enter your message here"></textarea>
+                        </div>
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="btn btn-large btn-primary white btn-custom">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="wow fadeInDown">
+            <div class="container">
+                <div class="row text-center">
+                <h2>Golf Courses</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <div class="social-list">
+                    <li class="facebook"><i class="fa fa-facebook"></i></li>
+                    <li class="youtube"><i class="fa fa-youtube"></i></li>
+                    <li class="instagram"><i class="fa fa-instagram"></i></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i></li>
+                    <li class="pinterest"><i class="fa fa-pinterest"></i></li>
+                </div>
+                <small>Allright reserved - 2017</small>
+            </div>
+        </footer>
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
@@ -49,5 +202,9 @@
         </script> -->
         
         <script src="scripts/app.js"></script>
+        <script src="scripts/src/wow/dist/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>
